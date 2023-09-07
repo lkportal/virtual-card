@@ -1,0 +1,10 @@
+.img-chip{
+    width: 20px;
+    height: 20px;
+    transform: rotate(90deg);
+}
+.img-wifi{
+    width: 10px;
+    height: 10px;
+    transform: rotate(90deg);
+}
