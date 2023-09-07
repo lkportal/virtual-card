@@ -12,10 +12,14 @@
     justify-content: center;
     border: 1px solid purple;
     max-width: 200px;
+    padding: 1em;
+    height: 100px;
+    width: 250px;
     
 }
 .information{
     display: flex;
     flex-direction: column;
     height: 100%;
+    width: 100%;
 }
