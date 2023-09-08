@@ -4,3 +4,12 @@ h1{
 h2,h3{
     font-size: 10px;
 }
+input{
+    height:15px;
+    background-image: linear-gradient(to left,#C638F5,#9A38F5);
+    border-bottom: #000;
+    border: none;
+}
+input:focus{
+   outline: none;
+}

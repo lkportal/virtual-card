@@ -2,9 +2,47 @@
     width: 20px;
     height: 20px;
     transform: rotate(90deg);
+    mix-blend-mode: multiply;
+    
 }
 .img-wifi{
     width: 10px;
     height: 10px;
     transform: rotate(90deg);
+}
+
+.nome-card{
+    padding: 5px;
+}
+.nome-card > h1{
+    font-size: 1em;
+    font-weight: 700;
+
+}
+.imgs{
+    display: flex;
+    justify-content: flex-end;
+}
+.card-number{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.footer-information-card{
+    display: flex;
+    justify-content: space-between;
+}
+.timeCard{
+    font-size: 10px;
+}
+.marcaCard{
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.name{
+    font-size: 15px;
+}
+.numberCard{
+    font-size: 15px;
 }

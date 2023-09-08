@@ -1,5 +1,6 @@
 .conteiner{
    display: flex;
+   flex-direction: column;
    height: 100%; 
    align-items: center;
    justify-content: space-around;
@@ -15,6 +16,9 @@
     padding: 1em;
     height: 100px;
     width: 250px;
+    background-image: linear-gradient(to left,#C638F5,#9A38F5);
+    box-shadow: #aaa 2px 2px 2px ;
+    
     
 }
 .information{
