@@ -1,0 +1,1 @@
+(()=>{"use strict";var e={639:(e,t)=>{Object.defineProperty(t,"__esModule",{value:!0}),t.getName=void 0;const n=document.getElementById("inputName");t.getName=function(){null==n||n.addEventListener("change",(e=>{console.log(e)}))}}},t={};(0,function n(o){var r=t[o];if(void 0!==r)return r.exports;var a=t[o]={exports:{}};return e[o](a,a.exports,n),a.exports}(639).getName)()})();

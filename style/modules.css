@@ -1,14 +1,15 @@
 .img-chip{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     transform: rotate(90deg);
     mix-blend-mode: multiply;
     
 }
 .img-wifi{
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     transform: rotate(90deg);
+    margin-top: 5px;
 }
 
 .nome-card{
@@ -33,16 +34,47 @@
     justify-content: space-between;
 }
 .timeCard{
-    font-size: 10px;
+    height:15px;
+    background-image: linear-gradient(to left,#C638F5,#9A38F5);
+    border-bottom: #000;
+    border: none;
+    margin-top: 5px;
+    color: #fff;
 }
 .marcaCard{
     font-weight: 700;
     font-size: 13px;
     margin-bottom: 5px;
+    color: #fff;
+    font-family: sans-serif;
 }
 .name{
-    font-size: 15px;
+    height:15px;
+    background-image: linear-gradient(to left,#C638F5,#9A38F5);
+    border-bottom: #000;
+    border: none;
+    color: #fff;
+}.name::placeholder{
+    color: #fff;
 }
 .numberCard{
     font-size: 15px;
+    
+}
+.inputSubmit{
+    font-size: 20px;
+    background-color: brown;
+    border: none;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5%;
+    box-shadow: #aaa 2px 2px ; 
+    
+}
+.title{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+
 }
